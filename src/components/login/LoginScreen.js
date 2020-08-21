@@ -8,10 +8,6 @@ export const LoginScreen = ({history}) => {
     const handleLogin = () => {
 
     
-        
-        // {
-        //     name: 'Jorge'
-        // }
         dispatch({
             type: types.login,
             payload: {
